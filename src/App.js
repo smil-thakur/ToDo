@@ -51,7 +51,7 @@ function App() {
       <Router>
         <Nav title="ToDo List" />
         <Routes>
-          <Route exact path="/" element={<>
+          <Route exact path="/ToDo/" element={<>
             <Todos todos={todos} onClick={onClick} />
             <AddToDo addToDofun={addTodo} />
           </>} />
